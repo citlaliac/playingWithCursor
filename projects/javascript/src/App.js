@@ -13,6 +13,7 @@ import ScratchPage from './pages/ScratchPage';
 import BookPage from './pages/BookPage';
 import ShopRedirectPage from './pages/ShopRedirectPage';
 import SurprisePage from './pages/SurprisePage';
+import BirthdayPage from './pages/BirthdayPage';
 
 // Tech section pages
 import ResumePage from './pages/tech/ResumePage';
@@ -53,6 +54,7 @@ function App() {
           <Route path="/book" element={<BookPage />} />
           <Route path="/shop" element={<ShopRedirectPage />} />
           <Route path="/surprise" element={<SurprisePage />} />
+          <Route path="/birthday" element={<BirthdayPage />} />
 
           {/* Tech section routes */}
           <Route path="/tech/resume" element={<ResumePage />} />
